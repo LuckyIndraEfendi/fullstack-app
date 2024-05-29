@@ -11,7 +11,7 @@
 - [Download Postman Collection](https://drive.google.com/file/d/1gapDVzCUDVfGgtwIqjV0Ad_Wyld4Duy9/view)
 - [Download Postman Environtment](https://drive.google.com/file/d/1ODQVXV5RdOlFAGhygQUNSdCPNK8pBrfk/view)
 
-- [Swagger Open API URL](https://drive.google.com/file/d/1ODQVXV5RdOlFAGhygQUNSdCPNK8pBrfk/view)
+- [Swagger Open API URL](http://20.2.250.134:5500/api-docs/#/product/get_api_product)
 
 [Follow this steps](https://github.com/LuckyIndraEfendi/fullstack-app/tree/main/backend)
 
