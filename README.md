@@ -8,6 +8,11 @@
 
 ## Backend Installation
 
+- [Download Postman Collection](https://drive.google.com/file/d/1gapDVzCUDVfGgtwIqjV0Ad_Wyld4Duy9/view)
+- [Download Postman Environtment](https://drive.google.com/file/d/1ODQVXV5RdOlFAGhygQUNSdCPNK8pBrfk/view)
+
+- [Swagger Open API URL](https://drive.google.com/file/d/1ODQVXV5RdOlFAGhygQUNSdCPNK8pBrfk/view)
+
 [Follow this steps](https://github.com/LuckyIndraEfendi/fullstack-app/tree/main/backend)
 
 ## License
