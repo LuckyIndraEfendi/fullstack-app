@@ -63,7 +63,6 @@ const SignIn = () => {
                 <FormField
                   control={form.control}
                   name="password"
-                  autoComplete="current-password"
                   render={({ field }) => (
                     <FormItem>
                       <FormLabel>Password</FormLabel>
