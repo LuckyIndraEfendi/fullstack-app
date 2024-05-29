@@ -181,7 +181,7 @@ const EditProduct = () => {
                               <SelectGroup>
                                 <SelectLabel>Category</SelectLabel>
                                 {productList?.map((item, i) => (
-                                  <SelectItem value="Electric" key={i}>
+                                  <SelectItem value={item?.title} key={i}>
                                     {item?.name}
                                   </SelectItem>
                                 ))}
