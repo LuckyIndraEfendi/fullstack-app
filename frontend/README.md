@@ -8,7 +8,7 @@ If you encounter any issues or bug on the site please head to [issues](https://g
 
 ## For Local Development
 
-1. Install package using npm :
+1. Move to directory :
 
 ```bash
 cd frontend

@@ -2,6 +2,14 @@
 
 <p>Full-stack Catalog Management with Express JS and React TS" is a comprehensive web application designed to provide a seamless user experience for managing catalog data. The project encompasses both backend and frontend components, utilizing Express.js for the backend API and React.js with TypeScript for the frontend interface. Key features of the application include</p>
 
+## First Step
+
+1. Clone repository to your local machine:
+
+```bash
+git clone https://github.com/LuckyIndraEfendi/fullstack-app.git
+```
+
 ## Frontend Installation
 
 [Follow this steps](https://github.com/LuckyIndraEfendi/fullstack-app/tree/main/frontend)

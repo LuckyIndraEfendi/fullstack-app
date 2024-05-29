@@ -8,25 +8,19 @@ If you encounter any issues or bug on the site please head to [issues](https://g
 
 ## For Local Development
 
-1. Clone this repository using :
+1. Move to directory :
 
 ```bash
-git clone https://github.com/LuckyIndraEfendi/fullstack-app.git
+cd backend
 ```
 
 2. Install package using npm :
 
 ```bash
-cd fullstack-app
-```
-
-3. Install package using npm :
-
-```bash
 npm install
 ```
 
-4. Create your `.env` file with the following example `.env` configuration
+3. Create your `.env` file with the following example `.env` configuration
 
 ```bash
 PORT="5500"
@@ -35,7 +29,7 @@ CORS_ORIGIN="http://localhost:5173" # required to add frontend url
 JWT_SECRET_KEY="Super secure jwt secret key" # you can generate using : npm run secret
 ```
 
-5. Start local server :
+4. Start local server :
 
 ```bash
 npm run dev
