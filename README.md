@@ -8,7 +8,7 @@
 
 ## Backend Installation
 
-- [Download Postman Collection](https://drive.google.com/file/d/1gapDVzCUDVfGgtwIqjV0Ad_Wyld4Duy9/view)
+- [Download Postman Collection](https://drive.google.com/file/d/1l9_in9Irc_MLweXs1XHVjQmYx8IhYIpr/view)
 - [Download Postman Environtment](https://drive.google.com/file/d/1ODQVXV5RdOlFAGhygQUNSdCPNK8pBrfk/view)
 
 - [Swagger Open API URL](https://restapi.luckyindraefendi.xyz/api-docs/)
