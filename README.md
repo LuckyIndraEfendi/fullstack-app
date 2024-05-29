@@ -20,7 +20,7 @@ git clone https://github.com/LuckyIndraEfendi/fullstack-app.git
 - [Download Postman Collection](https://drive.google.com/file/d/1l9_in9Irc_MLweXs1XHVjQmYx8IhYIpr/view)
 - [Download Postman Environtment](https://drive.google.com/file/d/1ODQVXV5RdOlFAGhygQUNSdCPNK8pBrfk/view)
 
-- [Swagger Open API URL](https://restapi.luckyindraefendi.xyz/api-docs/)
+- [Swagger Open API URL](http://20.2.250.134:5500/api-docs)
 
 [Follow this steps](https://github.com/LuckyIndraEfendi/fullstack-app/tree/main/backend)
 
