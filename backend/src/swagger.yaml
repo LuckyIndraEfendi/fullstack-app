@@ -1,0 +1,199 @@
+openapi: 3.0.0
+info:
+  title: Test Bidang FullStack API
+  version: 1.0.0
+servers:
+  - url: http://localhost:5500
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+tags:
+  - name: product
+  - name: auth
+  - name: users
+paths:
+  /api/product:
+    get:
+      tags:
+        - product
+      summary: Get Product
+      security:
+        - bearerAuth: []
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
+    post:
+      tags:
+        - product
+      summary: Add Product
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                productName:
+                  type: string
+                  example: Earphone TWS Gaming
+                productPrice:
+                  type: integer
+                  example: "10000"
+                productDescription:
+                  type: string
+                  example: >-
+                    As previously discussed, executing a TypeScript file in Node
+                    is not supported by default. However, we can overcome this
+                    limitation by leveraging ts-node, a TypeScript execution
+                    environment for Node. Let’s first use ts-node with npx
+                    without installing it as a dependency and observe the
+                    output:
+                productCategory:
+                  type: string
+                  example: Electric
+                productCountInStock:
+                  type: integer
+                  example: "10"
+                productImage:
+                  type: string
+                  format: binary
+                userId:
+                  type: string
+                  example: 6654363b95f413541527119e
+                "":
+                  type: string
+      security:
+        - bearerAuth: []
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
+  /api/product/66547b3e98dea58259e7c941:
+    get:
+      tags:
+        - product
+      summary: Get Product By Id
+      security:
+        - bearerAuth: []
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
+  /api/product/66547fac8f680855ce4fe8f6:
+    put:
+      tags:
+        - product
+      summary: Edit Prodict
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                productName:
+                  type: string
+                  example: Headset Badas
+                productPrice:
+                  type: integer
+                  example: "10000"
+                productDescription:
+                  type: string
+                  example: >-
+                    As previously discussed, executing a TypeScript file in Node
+                    is not supported by default. However, we can overcome this
+                    limitation by leveraging ts-node, a TypeScript execution
+                    environment for Node. Let’s first use ts-node with npx
+                    without installing it as a dependency and observe the
+                    output:
+                productCategory:
+                  type: string
+                  example: Electric
+                productCountInStock:
+                  type: integer
+                  example: "50"
+      security:
+        - bearerAuth: []
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
+  /api/product/665472cc977af2c12c830bd5:
+    delete:
+      tags:
+        - product
+      summary: Delete Product
+      security:
+        - bearerAuth: []
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
+  /api/auth/signup:
+    post:
+      tags:
+        - auth
+      summary: Sign up
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                name: Lucky Indra Efendi
+                email: kimilbonchu@gmail.com
+                password: "!Hayasaka592"
+                jenis_kelamin: Laki-laki
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
+  /api/auth/signin:
+    post:
+      tags:
+        - auth
+      summary: Sign In
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                email: kimilbonchu@gmail.com
+                password: "!Hayasaka592"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
+  /api/users/status:
+    get:
+      tags:
+        - users
+      summary: Get Current User
+      security:
+        - bearerAuth: []
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
+  /api/users/products:
+    get:
+      tags:
+        - users
+      summary: Get Product with Spesific User
+      security:
+        - bearerAuth: []
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
