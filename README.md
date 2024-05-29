@@ -12,8 +12,8 @@ git clone https://github.com/LuckyIndraEfendi/fullstack-app.git
 
 ## Frontend Installation
 
-[Follow this steps](https://github.com/LuckyIndraEfendi/fullstack-app/tree/main/frontend)
-[Frontend url website](http://20.2.250.134:4173/)
+- [Follow this steps](https://github.com/LuckyIndraEfendi/fullstack-app/tree/main/frontend)
+- [Frontend url website](http://20.2.250.134:4173/)
 
 ## Backend Installation
 
