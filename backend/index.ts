@@ -16,6 +16,7 @@ app.use(limiter);
 
 app.use(morgan("combined"));
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(specs));
+
 app.use(
   cors({
     origin: process.env.CORS_ORIGIN,
@@ -37,6 +38,7 @@ app.use(
 app.use("/images", express.static("images"));
 app.use(express.json());
 app.use("/api", route);
+
 app.get("/", (req: Request, res: Response) => {
   res.send("Hello World!");
 });
